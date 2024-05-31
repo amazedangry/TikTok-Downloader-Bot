@@ -19,12 +19,12 @@ from progress_bar import progress, TimeFormatter, humanbytes
 from dotenv import load_dotenv
 
 load_dotenv()
-bot_token = os.environ.get('BOT_TOKEN')
-workers = int(os.environ.get('WORKERS'))
-api = int(os.environ.get('API_KEY'))
-hash = os.environ.get('API_HASH')
-chnnl = os.environ.get('CHANNEL_URL')
-BOT_URL = os.environ.get('BOT_URL')
+bot_token = os.environ.get(6034456572:AAHXk0iIADrj1QgD6d2CHzrq3XGMZlWPO0g)
+workers = int(os.environ.get(4))
+api = int(os.environ.get(28068200))
+hash = os.environ.get(bf7ba40568db77393e31269c16be281a)
+chnnl = os.environ.get(https://t.me/+rD9oJrWHBXk2YjIy)
+BOT_URL = os.environ.get(porto_marsell_bot)
 app = Client("JayBee", bot_token=bot_token, api_id=api, api_hash=hash, workers=workers)
 
 
